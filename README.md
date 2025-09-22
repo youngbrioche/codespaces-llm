@@ -2,6 +2,8 @@
 
 GitHub Codespaces Umgebung mit LLM-cli und Zugriff auf GitHub Hosted Models via GITHUB_TOKEN.
 
+[Codespace starten](https://codespaces.new/youngbrioche/codespaces-llm?quickstart=1)
+
 Ausprobieren:
 
 ```bash
