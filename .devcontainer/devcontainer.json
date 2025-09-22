@@ -6,11 +6,10 @@
       "version": "latest"
     }
   },
-  "secrets": [
-    {
-      "name": "OPENROUTER_KEY",
-      "description": "Your private access token for OpenRouter."
+  "secrets": {
+    "OPENROUTER_KEY": {
+      "description": "Your secret API token for OpenRouter."
     }
-  ],    
+  },
   "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models && llm-openrouter && llm models default openrouter/google/gemma-3n-e4b-it"
 }
