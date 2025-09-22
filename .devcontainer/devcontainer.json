@@ -6,5 +6,11 @@
       "version": "latest"
     }
   },
-  "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models && llm models default github/Phi-4-mini-instruct"
+  "secrets": [
+    {
+      "name": "OPENROUTER_KEY",
+      "description": "Your private access token for OpenRouter."
+    }
+  ],    
+  "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models && llm-openrouter && llm models default openrouter/google/gemma-3n-e4b-it"
 }
