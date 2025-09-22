@@ -1,11 +1,9 @@
-# codespaces-llm
+# KI für Architekt:innen Sandbox
 
-This repository provides a GitHub Codespaces environment with [LLM](https://llm.datasette.io/), Python 3.13, `uv` and the GitHub Copilot VS Code extension.
+GitHub Codespaces Umgebung mit LLM-cli und Zugriff auf GitHub Hosted Models via GITHUB_TOKEN.
 
-**[Launch Codespace](https://codespaces.new/simonw/codespaces-llm?quickstart=1)**
-
-Then try running this in a terminal:
 ```bash
-llm "Fun facts about pelicans"
+llm "Wer bist Du?"
 ```
-LLM is configured using the [llm-github-models](https://github.com/tonybaloney/llm-github-models) plugin.
+
+LLM-cli wird mit dem [llm-github-models](https://github.com/tonybaloney/llm-github-models) Plugin konfiguriert.
