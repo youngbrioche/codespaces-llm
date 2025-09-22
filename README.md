@@ -1,4 +1,4 @@
-# KI für Architekt:innen Sandbox
+# LLM CLI Sandbox
 
 GitHub Codespaces Umgebung mit LLM-cli und Zugriff auf GitHub Hosted Models via GITHUB_TOKEN.
 
