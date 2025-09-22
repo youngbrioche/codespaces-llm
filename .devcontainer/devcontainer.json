@@ -6,5 +6,5 @@
       "version": "latest"
     }
   },
-  "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models && llm models default github/gpt-4.1"
+  "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models && llm models default github/Phi-4-mini-instruct"
 }
