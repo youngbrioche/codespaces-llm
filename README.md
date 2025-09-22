@@ -8,6 +8,12 @@ Ausprobieren:
 llm "Wer bist Du?"
 ```
 
+Default Model anzeigen:
+
+```bash
+llm models default
+```
+
 Verfügbare Modelle auflisten, anderes Modell nutzen:
 
 ```bash
