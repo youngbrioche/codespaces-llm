@@ -11,5 +11,5 @@
       "description": "Your secret API token for OpenRouter."
     }
   },
-  "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models && llm-openrouter && llm models default openrouter/google/gemma-3n-e4b-it"
+  "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models llm-openrouter && llm models default openrouter/google/gemma-3n-e4b-it"
 }
